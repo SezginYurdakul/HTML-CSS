@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Karma:wght@300;400;500;600;700&display=swap');
+
+body{
+    background-color: beige;
+    margin-left: 15%;
+    margin-right:15% ;
+    font-family: 'Dosis';
+}
+nav{
+    display: block;
+}
+h1{
+width:100%; 
+font-size: 50px;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+padding-bottom: 30px;
+
+}
+h2{
+    font-size: 24px;
+}
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 200px;
+    border-radius: 200px;}
+
+header{
+  
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: rgb(229, 226, 226);
+    display: inline;
+    
+}
+nav{
+    width:100%; 
+    display: flexbox;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+nav ul {  
+    border-top: 1px solid rgb(202, 200, 200);
+    display:flex;
+    width: 100%;
+
+}
+nav  ul p{ 
+    width: 100%;
+    height: 100%; 
+}
+nav  ul p a{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    }
+
+nav  ul p a:hover{  
+    background-color: rgb(44, 43, 43); 
+    color: rgb(253, 253, 253); 
+    transition: 0.4s; 
+}
+.tablo{
+    width:100%; 
+    padding: 20px 0 20px 40px;
+    background-color: antiquewhite;
+    background-color: rgb(229, 226, 226);
+    width: 100%;
+    border-bottom: 1px solid rgb(202, 200, 200); 
+    font-size: 18px;
+}
+
+.exper li{
+    padding-bottom: 15px;
+
+}
+#Education{
+ border-top: 1px solid rgb(202, 200, 200);
+ width: 100%;
+}
+
+footer{
+    background-color: antiquewhite;
+    background-color: rgb(229, 226, 226);
+    border-bottom: 1px solid rgb(202, 200, 200);
+    width:100%;
+    padding: 30px 0 20px 40px
+
+    
+     }
+   .social-media-icons{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+   }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 3px 2px;
+        display: inline-block;
+      }
+      
+
+      .fa{
+          color:white;
+      }
+      .fa:hover {
+          opacity: 0.7;
+      }
+      .fa-facebook {
+        background: #3B5998;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+      }
+      .fa-instagram {
+        background: #dd1c0e;
+      }
+      
