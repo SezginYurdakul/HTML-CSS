@@ -1,2 +1,0 @@
-# animals
-Exercise for HYF
